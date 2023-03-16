@@ -1,6 +1,9 @@
 import React from "react";
 
-const TechIcon = ({ title, component }) => {
+const TechIcon: React.FC<{ title: string; component: any }> = ({
+  title,
+  component,
+}) => {
   return (
     <div className="technology">
       <h4>{title}</h4>

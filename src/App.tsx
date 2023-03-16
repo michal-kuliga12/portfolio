@@ -1,7 +1,7 @@
 import { useState } from "react";
 import wavesDivider from "./assets/wavesOpacity.svg";
 import profilePic from "./assets/profile-pic.webp";
-import TechIcon from "./components/TechIcon.tsx";
+import TechIcon from "./components/TechIcon";
 import "./style.scss";
 import { Link } from "react-router-dom";
 import {
