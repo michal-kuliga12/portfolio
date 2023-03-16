@@ -1,0 +1,41 @@
+:root {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: rgb(192, 192, 192);
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 50px;
+  color: white;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+h4 {
+  font-size: 22px;
+}
+p {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 58px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
