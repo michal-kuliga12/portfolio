@@ -133,6 +133,10 @@ $backgroundLight: rgb(20, 20, 20);
             gap: 14px;
             flex-direction: column;
             align-items: center;
+            img {
+              width: 64px;
+              height: 64px;
+            }
             i {
               color: white;
               font-size: 72px;
