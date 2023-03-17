@@ -1,12 +1,13 @@
 import React from "react";
 
-const TechIcon: React.FC<{ title: string; component: any }> = ({
-  title,
-  component,
-}) => {
+const TechIcon: React.FC<{
+  title: string;
+  component: any;
+  stylingClass: any;
+}> = ({ title, component, stylingClass }) => {
   return (
-    <div className="technology">
-      <h4>{title}</h4>
+    <div className={stylingClass}>
+      {title !== "x" && <h4>{title}</h4>}
       <i>{component}</i>
     </div>
   );
