@@ -63,7 +63,7 @@ function App() {
             <div className="wrapper">
               <div className="profile">
                 <h2 className="name">Michał Kuliga</h2>
-                <h3>Front-End Developer</h3>
+                <h3>Full-stack Developer</h3>
                 <p>
                   I am a graduate of mechatronics and self-taught web developer
                   focused on creating full stack web applications. I am mainly
