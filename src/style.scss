@@ -133,6 +133,25 @@ $backgroundLightOp: rgb(25, 25, 25);
             }
           }
         }
+        .contact {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .contactItem {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            span {
+              font-size: 18px;
+            }
+            &:last-child {
+              span {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 200;
+              }
+            }
+          }
+        }
       }
       // TECHNOLOGIES
 

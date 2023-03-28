@@ -31,6 +31,8 @@ import CssIcon from "./components/CssIcon";
 import MySqlIcon from "./components/MySqlIcon";
 import GitIcon from "./components/GitIcon";
 import TypeScriptIcon from "./components/TypeScriptIcon";
+import PhoneIcon from "./components/PhoneIcon";
+import MailIcon from "./components/MailIcon";
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false);
@@ -52,7 +54,7 @@ function App() {
             <Link
               aria-label="Linkedin"
               className="icon"
-              to="https://www.linkedin.com/in/micha%C5%82-kuliga-65a781269"
+              to="https://www.linkedin.com/in/micha%C5%82-kuliga12/"
             >
               <LinkedinIcon />
             </Link>
@@ -79,6 +81,20 @@ function App() {
               <div className="picture">
                 <img width={300} height={449} src={profilePic} alt="" />
               </div>
+            </div>
+            <div className="contact">
+              <p className="contactItem">
+                <span>
+                  <MailIcon />
+                </span>{" "}
+                <span>mkuliga72@gmail.com</span>
+              </p>
+              <p className="contactItem">
+                <span>
+                  <PhoneIcon />
+                </span>{" "}
+                <span>+48 536 241 899</span>
+              </p>
             </div>
           </section>
           <section className="technologies">
